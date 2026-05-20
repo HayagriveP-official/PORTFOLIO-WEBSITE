@@ -133,31 +133,33 @@ export default function ProjectCard({ project, index }) {
 
       {/* CTA buttons */}
       <div style={{ display: 'flex', gap: '0.6rem', marginTop: '0.25rem' }}>
-        <a
-          href={project.liveUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            flex: 1,
-            display: 'inline-flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '0.35rem',
-            fontFamily: 'var(--font-body)',
-            fontWeight: 600,
-            fontSize: '0.82rem',
-            color: 'var(--bg-primary)',
-            background: 'var(--accent)',
-            borderRadius: '7px',
-            padding: '0.55rem 0.875rem',
-            textDecoration: 'none',
-            transition: 'opacity 0.2s',
-          }}
-          onMouseEnter={e => e.currentTarget.style.opacity = '0.85'}
-          onMouseLeave={e => e.currentTarget.style.opacity = '1'}
-        >
-          <ExternalLink size={13} /> View Live
-        </a>
+        {!project.hideLiveUrl && (
+          <a
+            href={project.liveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              flex: 1,
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '0.35rem',
+              fontFamily: 'var(--font-body)',
+              fontWeight: 600,
+              fontSize: '0.82rem',
+              color: 'var(--bg-primary)',
+              background: 'var(--accent)',
+              borderRadius: '7px',
+              padding: '0.55rem 0.875rem',
+              textDecoration: 'none',
+              transition: 'opacity 0.2s',
+            }}
+            onMouseEnter={e => e.currentTarget.style.opacity = '0.85'}
+            onMouseLeave={e => e.currentTarget.style.opacity = '1'}
+          >
+            <ExternalLink size={13} /> View Live
+          </a>
+        )}
         <a
           href={project.githubUrl}
           target="_blank"

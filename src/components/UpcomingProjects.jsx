@@ -86,7 +86,7 @@ export default function UpcomingProjects() {
             transition={{ duration: 0.4, delay: 0.1 + i * 0.1, ease: 'easeOut' }}
             style={{
               background: 'rgba(19,19,30,0.6)',
-              border: '1px dashed rgba(255,255,255,0.1)',
+              border: '1px dashed rgba(0,212,170,0.18)',
               borderRadius: '14px',
               padding: '1.4rem',
               display: 'flex',
@@ -94,6 +94,16 @@ export default function UpcomingProjects() {
               gap: '0.875rem',
               position: 'relative',
               overflow: 'hidden',
+              boxShadow: '0 0 24px rgba(0,212,170,0.04), inset 0 0 40px rgba(0,212,170,0.02)',
+              transition: 'border-color 0.3s, box-shadow 0.3s',
+            }}
+            onMouseEnter={e => {
+              e.currentTarget.style.borderColor = 'rgba(0,212,170,0.35)';
+              e.currentTarget.style.boxShadow = '0 0 32px rgba(0,212,170,0.1), inset 0 0 40px rgba(0,212,170,0.04)';
+            }}
+            onMouseLeave={e => {
+              e.currentTarget.style.borderColor = 'rgba(0,212,170,0.18)';
+              e.currentTarget.style.boxShadow = '0 0 24px rgba(0,212,170,0.04), inset 0 0 40px rgba(0,212,170,0.02)';
             }}
           >
             {/* Muted overlay tint */}

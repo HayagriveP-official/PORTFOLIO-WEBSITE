@@ -281,7 +281,7 @@ export default function Contact() {
           fontSize: '0.75rem',
           color: 'var(--text-muted)',
         }}>
-          © 2025 Hayagrive P. Built with React + Vite.
+          © 2026 Hayagrive P.
         </p>
         <p style={{
           fontFamily: 'var(--font-mono)',
