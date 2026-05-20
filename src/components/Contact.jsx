@@ -25,7 +25,7 @@ const links = [
     icon: <LinkedinIcon size={18} />,
     label: 'LinkedIn',
     value: 'Hayagrive P',
-    href: '#',
+    href: 'https://www.linkedin.com/in/hayagrive-p-619512257',
   },
   {
     icon: <GithubIcon size={18} />,

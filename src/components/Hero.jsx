@@ -281,7 +281,7 @@ export default function Hero() {
         }}>
           {[
             { icon: <GithubIcon size={18} />, href: 'https://github.com/HayagriveP-official', label: 'GitHub' },
-            { icon: <LinkedinIcon size={18} />, href: '#', label: 'LinkedIn' },
+            { icon: <LinkedinIcon size={18} />, href: 'https://www.linkedin.com/in/hayagrive-p-619512257', label: 'LinkedIn' },
             { icon: <Mail size={18} />, href: 'mailto:hayagrive.official@gmail.com', label: 'Email' },
           ].map(({ icon, href, label }) => (
             <a
