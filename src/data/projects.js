@@ -6,8 +6,8 @@ export const projects = [
     techStack: ["React", "Node.js", "Express", "PostgreSQL", "Groq API", "Llama 3", "JWT", "pdf-parse"],
     techDomains: ["GenAI", "LLM", "Full Stack", "MERN Stack"],
     projectTypes: ["SaaS", "Interview Tool", "Dashboard"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://ai-interview-coach-silk.vercel.app",
+    githubUrl: "https://github.com/HayagriveP-official/AI-INTERVIEW-COACH",
     status: "live"
   },
   {
