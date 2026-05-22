@@ -17,8 +17,8 @@ export const projects = [
     techStack: ["React", "Node.js", "Express", "PostgreSQL", "ChromaDB", "Groq API", "LangChain", "Socket.io", "Redis", "JWT"],
     techDomains: ["RAG", "GenAI", "LLM", "Real-Time", "Full Stack"],
     projectTypes: ["SaaS", "Document AI", "Dashboard"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://ai-powered-saa-s-dashboard.vercel.app/",
+    githubUrl: "https://github.com/HayagriveP-official/AI-Powered-SaaS-Dashboard",
     status: "live"
   },
   {
@@ -28,8 +28,8 @@ export const projects = [
     techStack: ["React", "D3.js", "Node.js", "Express", "PostgreSQL", "Groq API", "GitHub OAuth", "Redis"],
     techDomains: ["GenAI", "LLM", "Analytics", "Full Stack"],
     projectTypes: ["Dev Tools", "Analytics", "Dashboard", "SaaS"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://devpulse-bay.vercel.app",
+    githubUrl: "https://github.com/HayagriveP-official/DEVPULSE",
     status: "live"
   },
   {
