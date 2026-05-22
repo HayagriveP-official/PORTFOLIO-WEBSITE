@@ -43,7 +43,8 @@ export const projects = [
     githubUrl: "#",
     status: "live",
     badge: "Patented",
-    hideLiveUrl: true
+    hideLiveUrl: true,
+    hideGithubUrl: true
   }
 ];
 

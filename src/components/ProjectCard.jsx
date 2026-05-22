@@ -160,7 +160,7 @@ export default function ProjectCard({ project, index }) {
             <ExternalLink size={13} /> View Live
           </a>
         )}
-        <a
+        {!project.hideGithubUrl && <a
           href={project.githubUrl}
           target="_blank"
           rel="noopener noreferrer"
@@ -191,7 +191,7 @@ export default function ProjectCard({ project, index }) {
           }}
         >
           <GithubIcon size={13} /> GitHub
-        </a>
+        </a>}
       </div>
     </motion.article>
   );
