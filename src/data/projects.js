@@ -35,6 +35,17 @@ export const projects = [
   },
   {
     id: 4,
+    title: "TaskPilot — Task & Team Management",
+    description: "Multi-user task management platform with JWT-secured auth, priority and due-date workflows, and a Team Workspace feature with member cards, task assignment, and Recharts-powered analytics dashboards. Built as the capstone deliverable of my Altruisty Innovation internship.",
+    techStack: ["React 19", "Tailwind CSS v4", "Recharts", "Node.js", "Express 5", "MongoDB", "JWT", "bcrypt"],
+    techDomains: ["Full Stack", "MERN Stack", "Analytics"],
+    projectTypes: ["SaaS", "Productivity", "Dashboard"],
+    liveUrl: "https://taskpilot-wine-phi.vercel.app/",
+    githubUrl: "https://github.com/HayagriveP-official/TaskPilot",
+    status: "live"
+  },
+  {
+    id: 5,
     title: "SustainDine Delivery Wagon",
     description: "Patented autonomous amphibious vehicle for rural last-mile delivery. Solar and dynamo-powered with real-time GPS tracking, obstacle detection via OpenCV, and automated navigation.",
     techStack: ["Python", "Arduino", "OpenCV", "IoT", "GPS", "OpenStreetMap API"],
