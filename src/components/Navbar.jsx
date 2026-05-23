@@ -100,8 +100,8 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href="#"
-              download
+              href="/Hayagrive_P_Resume.pdf"
+              download="Hayagrive_P_Resume.pdf"
               style={{
                 fontFamily: 'var(--font-body)',
                 fontWeight: 600,
@@ -179,8 +179,8 @@ export default function Navbar() {
               ))}
               <li>
                 <a
-                  href="#"
-                  download
+                  href="/Hayagrive_P_Resume.pdf"
+                  download="Hayagrive_P_Resume.pdf"
                   style={{
                     display: 'inline-block',
                     marginTop: '0.25rem',

@@ -240,8 +240,8 @@ export default function Hero() {
           </a>
 
           <a
-            href="#"
-            download
+            href="/Hayagrive_P_Resume.pdf"
+            download="Hayagrive_P_Resume.pdf"
             style={{
               fontFamily: 'var(--font-body)',
               fontWeight: 600,
