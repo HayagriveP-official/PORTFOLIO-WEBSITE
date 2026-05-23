@@ -199,7 +199,7 @@ export default function Hero() {
           marginBottom: '2.5rem',
           letterSpacing: '0.01em',
         }}>
-          Final year IT student · Chennai, India · Open to opportunities
+          Full-Stack & AI Engineer · Open to opportunities · Willing to relocate
         </motion.p>
 
         {/* CTA Buttons */}

@@ -36,7 +36,7 @@ const links = [
   {
     icon: <MapPin size={18} />,
     label: 'Location',
-    value: 'Chennai, India',
+    value: 'Open to relocation',
     href: null,
   },
 ];
@@ -288,7 +288,7 @@ export default function Contact() {
           fontSize: '0.75rem',
           color: 'var(--text-muted)',
         }}>
-          Chennai, India
+          Open to opportunities · Willing to relocate
         </p>
       </motion.div>
     </section>

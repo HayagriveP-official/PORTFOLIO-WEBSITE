@@ -170,9 +170,9 @@ export default function About() {
             lineHeight: 1.8,
             marginBottom: '2.5rem',
           }}>
-            I'm a final-year Information Technology student at{' '}
+            I'm an Information Technology engineering student at{' '}
             <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>
-              Sri Sai Ram Institute of Technology, Chennai
+              Sri Sai Ram Institute of Technology
             </span>
             . I build full-stack web applications and AI-integrated products using the{' '}
             <span style={{ color: 'var(--accent)' }}>MERN stack, GenAI APIs, and RAG pipelines</span>
